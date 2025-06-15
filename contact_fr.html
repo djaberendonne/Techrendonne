@@ -1,13 +1,17 @@
 
 <!DOCTYPE html>
 <html lang="fr">
-<head><meta charset="UTF-8"><title>Contact</title></head>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
 <body>
     <h1>Contactez-nous</h1>
-    <form>
-        Nom : <input type="text" name="name"><br>
-        Email : <input type="email" name="email"><br>
-        Message : <textarea name="message"></textarea><br>
+    <form onsubmit="alert('Votre message a été envoyé avec succès !'); return false;">
+        Nom : <input type="text" name="name" required><br>
+        Email : <input type="email" name="email" required><br>
+        Message : <textarea name="message" required></textarea><br>
         <button type="submit">Envoyer</button>
     </form>
     <a href="index_fr.html">Retour</a>
