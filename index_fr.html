@@ -3,8 +3,15 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Techrendonne - Tourisme & Randonnée</title>
+    <title>Techrendonne - Produits Tourisme & Randonnée</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .hero { background: #cfe2ff; padding: 40px; border-radius: 20px; margin-bottom: 30px; text-align: center; }
+        .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .product-card { background: white; padding: 15px; border-radius: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center; }
+        .buy-btn { background: #198754; color: white; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; }
+        .buy-btn:hover { background: #145c32; }
+    </style>
 </head>
 <body>
     <header>
@@ -16,21 +23,76 @@
             <a href="index.html">العربية</a>
         </nav>
     </header>
-    <main>
-        <h2>Nos Produits</h2>
-        <ul>
-            <li><a href="products/product1.html">Produit 1</a></li>
-            <li><a href="products/product2.html">Produit 2</a></li>
-            <li><a href="products/product3.html">Produit 3</a></li>
-            <li><a href="products/product4.html">Produit 4</a></li>
-            <li><a href="products/product5.html">Produit 5</a></li>
-            <li><a href="products/product6.html">Produit 6</a></li>
-            <li><a href="products/product7.html">Produit 7</a></li>
-            <li><a href="products/product8.html">Produit 8</a></li>
-            <li><a href="products/product9.html">Produit 9</a></li>
-            <li><a href="products/product10.html">Produit 10</a></li>
-        </ul>
-    </main>
+
+    <section class="hero">
+        <h2>Préparez votre prochaine aventure !</h2>
+        <p>Découvrez les meilleurs équipements de randonnée et de tourisme à des prix compétitifs.</p>
+    </section>
+
+    <section class="products">
+        
+    <div class="product-card">
+        <h3>Produit 1</h3>
+        <p>Description courte pour produit 1.</p>
+        <button class="buy-btn" onclick="alert('Produit 1 ajouté au panier')">Acheter maintenant</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>Produit 2</h3>
+        <p>Description courte pour produit 2.</p>
+        <button class="buy-btn" onclick="alert('Produit 2 ajouté au panier')">Acheter maintenant</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>Produit 3</h3>
+        <p>Description courte pour produit 3.</p>
+        <button class="buy-btn" onclick="alert('Produit 3 ajouté au panier')">Acheter maintenant</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>Produit 4</h3>
+        <p>Description courte pour produit 4.</p>
+        <button class="buy-btn" onclick="alert('Produit 4 ajouté au panier')">Acheter maintenant</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>Produit 5</h3>
+        <p>Description courte pour produit 5.</p>
+        <button class="buy-btn" onclick="alert('Produit 5 ajouté au panier')">Acheter maintenant</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>Produit 6</h3>
+        <p>Description courte pour produit 6.</p>
+        <button class="buy-btn" onclick="alert('Produit 6 ajouté au panier')">Acheter maintenant</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>Produit 7</h3>
+        <p>Description courte pour produit 7.</p>
+        <button class="buy-btn" onclick="alert('Produit 7 ajouté au panier')">Acheter maintenant</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>Produit 8</h3>
+        <p>Description courte pour produit 8.</p>
+        <button class="buy-btn" onclick="alert('Produit 8 ajouté au panier')">Acheter maintenant</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>Produit 9</h3>
+        <p>Description courte pour produit 9.</p>
+        <button class="buy-btn" onclick="alert('Produit 9 ajouté au panier')">Acheter maintenant</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>Produit 10</h3>
+        <p>Description courte pour produit 10.</p>
+        <button class="buy-btn" onclick="alert('Produit 10 ajouté au panier')">Acheter maintenant</button>
+    </div>
+    
+    </section>
+
     <footer>
         <p>Suivez-nous sur <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
     </footer>

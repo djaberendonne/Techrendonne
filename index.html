@@ -3,8 +3,15 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>Techrendonne - السياحة والمشي</title>
+    <title>Techrendonne - أفضل منتجات السياحة والمشي</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .hero { background: #cfe2ff; padding: 40px; border-radius: 20px; margin-bottom: 30px; text-align: center; }
+        .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .product-card { background: white; padding: 15px; border-radius: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center; }
+        .buy-btn { background: #198754; color: white; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; }
+        .buy-btn:hover { background: #145c32; }
+    </style>
 </head>
 <body>
     <header>
@@ -16,21 +23,76 @@
             <a href="index_fr.html">Français</a>
         </nav>
     </header>
-    <main>
-        <h2>منتجاتنا</h2>
-        <ul>
-            <li><a href="products/product1.html">منتج 1</a></li>
-            <li><a href="products/product2.html">منتج 2</a></li>
-            <li><a href="products/product3.html">منتج 3</a></li>
-            <li><a href="products/product4.html">منتج 4</a></li>
-            <li><a href="products/product5.html">منتج 5</a></li>
-            <li><a href="products/product6.html">منتج 6</a></li>
-            <li><a href="products/product7.html">منتج 7</a></li>
-            <li><a href="products/product8.html">منتج 8</a></li>
-            <li><a href="products/product9.html">منتج 9</a></li>
-            <li><a href="products/product10.html">منتج 10</a></li>
-        </ul>
-    </main>
+
+    <section class="hero">
+        <h2>استعد لمغامرتك القادمة!</h2>
+        <p>اكتشف أفضل معدات السياحة و randonnée بأسعار تنافسية وجودة ممتازة.</p>
+    </section>
+
+    <section class="products">
+        
+    <div class="product-card">
+        <h3>منتج 1</h3>
+        <p>وصف مختصر لمنتج 1.</p>
+        <button class="buy-btn" onclick="alert('تمت إضافة المنتج 1 إلى السلة')">شراء الآن</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>منتج 2</h3>
+        <p>وصف مختصر لمنتج 2.</p>
+        <button class="buy-btn" onclick="alert('تمت إضافة المنتج 2 إلى السلة')">شراء الآن</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>منتج 3</h3>
+        <p>وصف مختصر لمنتج 3.</p>
+        <button class="buy-btn" onclick="alert('تمت إضافة المنتج 3 إلى السلة')">شراء الآن</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>منتج 4</h3>
+        <p>وصف مختصر لمنتج 4.</p>
+        <button class="buy-btn" onclick="alert('تمت إضافة المنتج 4 إلى السلة')">شراء الآن</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>منتج 5</h3>
+        <p>وصف مختصر لمنتج 5.</p>
+        <button class="buy-btn" onclick="alert('تمت إضافة المنتج 5 إلى السلة')">شراء الآن</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>منتج 6</h3>
+        <p>وصف مختصر لمنتج 6.</p>
+        <button class="buy-btn" onclick="alert('تمت إضافة المنتج 6 إلى السلة')">شراء الآن</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>منتج 7</h3>
+        <p>وصف مختصر لمنتج 7.</p>
+        <button class="buy-btn" onclick="alert('تمت إضافة المنتج 7 إلى السلة')">شراء الآن</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>منتج 8</h3>
+        <p>وصف مختصر لمنتج 8.</p>
+        <button class="buy-btn" onclick="alert('تمت إضافة المنتج 8 إلى السلة')">شراء الآن</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>منتج 9</h3>
+        <p>وصف مختصر لمنتج 9.</p>
+        <button class="buy-btn" onclick="alert('تمت إضافة المنتج 9 إلى السلة')">شراء الآن</button>
+    </div>
+    
+    <div class="product-card">
+        <h3>منتج 10</h3>
+        <p>وصف مختصر لمنتج 10.</p>
+        <button class="buy-btn" onclick="alert('تمت إضافة المنتج 10 إلى السلة')">شراء الآن</button>
+    </div>
+    
+    </section>
+
     <footer>
         <p>تابعنا على <a href="#">فيسبوك</a> | <a href="#">إنستغرام</a></p>
     </footer>
