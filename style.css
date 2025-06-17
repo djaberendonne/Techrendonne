@@ -1,13 +1,57 @@
 
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f8f8; color: #333; }
-header { background: #2d3436; color: white; text-align: center; padding: 2rem 1rem; }
-main { padding: 2rem; }
-.products { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; }
-.product { background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding: 1rem; width: 300px; text-align: center; }
-.product img { width: 100%; border-radius: 6px; }
-.buy-button { display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: #0984e3; color: white; text-decoration: none; border-radius: 4px; }
-footer { text-align: center; padding: 1rem; background: #dfe6e9; }
-.contact-form { max-width: 600px; margin: auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-.contact-form form { display: flex; flex-direction: column; gap: 1rem; }
-.contact-form input, .contact-form textarea { padding: 0.5rem; border-radius: 4px; border: 1px solid #ccc; }
-.contact-form button { background: #00b894; color: white; padding: 0.5rem 1rem; border: none; border-radius: 4px; cursor: pointer; }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #2b6777;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+.product {
+  background: white;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.product img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product h2 {
+  color: #2b6777;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #52ab98;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #2b6777;
+  color: white;
+}
