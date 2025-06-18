@@ -5,29 +5,43 @@
     <meta charset="UTF-8">
     <title>Bienvenue - Techrendonne</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        html, body { height: 100%; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
         .hero {
             background: url('landing.jpg') no-repeat center center;
             background-size: cover;
             height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding-bottom: 100px;
             position: relative;
         }
-        .button-link {
-            position: absolute;
-            bottom: 12%;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 220px;
-            height: 80px;
-            cursor: pointer;
-            background-color: transparent;
+        .real-button {
+            padding: 20px 40px;
+            font-size: 20px;
+            background-color: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition: background-color 0.3s ease;
+        }
+        .real-button:hover {
+            background-color: #e65c00;
         }
     </style>
 </head>
 <body>
     <div class="hero">
-        <a class="button-link" href="home.html" title="Commander maintenant"></a>
+        <a class="real-button" href="home.html">Commander Maintenant</a>
     </div>
 </body>
 </html>
